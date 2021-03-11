@@ -1,0 +1,188 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family:  'Playfair Display', serif;
+}
+/*header css*/
+.header{
+	overflow: hidden;
+}
+.content1{
+	width: 90%;
+	text-align: center;
+	padding: 20px 0;
+	margin: 0 auto;
+
+}
+.logo{
+	float: left;
+	width: 25%
+}
+.menu{
+	float: right;
+	width: 75%;
+	/*margin-left: 5%: */
+}
+.menu ul{
+	
+}
+.menu ul li{
+	list-style-type: none;
+	display: inline-block;
+}
+.menu ul li:last-child a{
+	padding-right: 0;
+}
+.menu ul li a{
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #626262;
+	font-size: 18px;
+	/*margin: 0 auto;*/
+	padding: 0 50px;
+	display: block;
+}
+.menu ul li a:hover{
+	color: #000000;
+	text-decoration: underline;
+}
+/*header css*/
+/*banner css*/
+.banner img{
+	width: 100%;
+}
+/*banner css*/
+/*discription section css*/
+.discription{
+	padding: 80px 0;
+}
+.content2{
+	width: 80%;
+	margin: 0 auto;
+}
+.wrapper{}
+.wrapper span{
+	text-transform: uppercase;
+	font-size: 18px;
+	color: #b4ad9e;
+	font-weight: 300;
+	font-family: 'Ubuntu', sans-serif;
+}
+.wrapper span:hover{
+	color: tomato;
+	text-decoration: underline;
+
+}
+.wrapper h1{
+	color: #626262;
+	font-size: 30px;
+	font-weight: 400;
+	margin: 15px 0 25px 0;
+}
+.wrapper p{
+	color:#626262;
+	line-height: 25px;
+	margin: 0 auto;
+	padding-bottom: 40px;
+}
+
+/*discription section css*/
+/*blog section css*/
+.blog{
+	overflow: hidden;
+	
+}
+.content2{}
+.bloglist{
+	width: 46%;
+	float: left;
+	padding: 30px 0 80px;
+
+}
+.bloglist:nth-child(even){
+	margin-left: 8%;
+}
+.bloglist img{
+	width: 100%;
+}
+.bloglist span{
+	text-transform: uppercase;
+	font-family: 'Ubuntu', sans-serif;
+	color: #b4ad9e;
+	font-size: 18px;
+	display: inline-block;
+    padding-top: 20px;
+}
+.bloglist span:hover{
+	color: tomato;
+	text-decoration: underline;
+}
+.bloglist h2{
+	font-weight: 400;
+	color: #626262;
+	font-size: 30px;
+	padding: 20px 0;
+}
+.bloglist p{
+		line-height: 20px;
+		color: #626262;
+		margin: 0 auto;
+		
+}
+
+/*blog section css*/
+/*newsletter css*/
+.newsletter{
+	padding: 40px 0 80px 0;
+}
+.content2{}
+.news-content{
+	text-align: center;
+	background-color: #f0f0f0;
+	width: 100%;
+	padding: 20px 0 80px 0;
+}
+.news-content h1{
+	font-size: 30px;
+	font-weight: 400;
+	color: #333333;
+	margin-bottom: 80px;
+	padding-top: 50px;
+}
+.news-content form{
+		margin: 0 auto;
+		border-bottom: 1px solid #000;
+		width: 28%;
+
+
+}
+.news-content .newsclass{
+	border:none;
+	padding: 5px;
+	width: 86%;
+	background:none;
+	/*padding-bottom: 50px;*/
+
+}
+.news-content .newsclass:focus{
+	outline: none;
+}
+.load-btn{
+	text-align: center;
+	margin: 80px 0;
+}
+.load-btn a{
+	text-decoration: none;
+	border:1px solid #000;
+	padding: 26px 30px;
+    color: #626262;
+    font-size: 26px;
+    font-family: 'Ubuntu' sens-serif;
+}
+.load-btn a:hover{
+	color: black;
+	text-decoration: underline;
+}
+/*newsletter css*/
